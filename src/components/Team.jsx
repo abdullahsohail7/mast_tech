@@ -20,20 +20,21 @@ const Team = () => {
        
 },
 {
-    id:2,
+  id:2,
+  src: S2,
+  title :'Irine Schwartz',
+  subtitle : 'IOS Developer',
+  children : 'Berkshire University Of Engineering',
+  style: "shadow-blue-800"},
+{
+    id:3,
     src: S1,
     title :'Syed Abdullah Abbas Sohail',
     subtitle : 'Full Stack Developer',
     children : 'UET, Lahore',
     style: "shadow-blue-800"
 },
-{
-id:3,
-src: S2,
-title :'Irine Schwartz',
-subtitle : 'IOS Developer',
-children : 'Berkshire University Of Engineering',
-style: "shadow-blue-800"}
+
 ]
   return (
    <PageSection name= 'team' title="Team" subtitle="The MAST Tech. team is a tight-knit, talented group with a shared vision of delivering consistently great results for our clients, as well as ensuring the agency is a fun, inclusive, challenging place to work and develop a rewarding career.">
