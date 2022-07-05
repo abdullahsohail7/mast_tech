@@ -42,7 +42,7 @@ const Team = () => {
 {teams.map(({ id, src, title, subtitle ,children,  style}) => (
             <div
               key={id}
-              className={`shadow-md h-30 hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
+              className={`shadow-md h-full hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
             >
               <img src={src} alt="" className="w-20 h-25 mx-auto" />
               <p className="mt-4 text-sm">{title}</p>
