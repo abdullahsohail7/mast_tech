@@ -3,7 +3,7 @@ import PageSection from './PageSection'
 // import LI1 from '../assets/LI1.jpg'
 // import LI2 from '../assets/LI2.jpg'
 // import LI3 from '../assets/LI3.jpeg'
-import LI4 from '../assets/LI4.jpg'
+import S1 from '../assets/S1.png'
 import LI5 from '../assets/LI5.png'
 
 const Team = () => {
@@ -15,12 +15,12 @@ const Team = () => {
     subtitle : 'Senior Android Developer',
     children : 'Columbia University',
     style: "shadow-blue-800",
-    FontFace: 'Raleway'
+   
        
 },
 {
     id:2,
-    src: LI4,
+    src: S1,
     title :'Syed Abdullah Abbas Sohail',
     subtitle : 'Full Stack Developer',
     children : 'UET, Lahore',
@@ -28,7 +28,7 @@ const Team = () => {
 },
 {
 id:3,
-src: LI4,
+src: S1,
 title :'Irine Schwartz',
 subtitle : 'IOS Developer',
 children : 'Berkshire University Of Engineering',
