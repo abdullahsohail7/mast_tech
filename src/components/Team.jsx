@@ -5,6 +5,7 @@ import PageSection from './PageSection'
 // import LI3 from '../assets/LI3.jpeg'
 import S1 from '../assets/S1.png'
 import LI5 from '../assets/LI5.png'
+import S2 from '../assets/S2.jpg'
 
 const Team = () => {
    const teams = [
@@ -28,7 +29,7 @@ const Team = () => {
 },
 {
 id:3,
-src: S1,
+src: S2,
 title :'Irine Schwartz',
 subtitle : 'IOS Developer',
 children : 'Berkshire University Of Engineering',
