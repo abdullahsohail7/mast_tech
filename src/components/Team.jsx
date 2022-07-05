@@ -14,7 +14,8 @@ const Team = () => {
     title :'Daniyal Azhar',
     subtitle : 'Senior Android Developer',
     children : 'Columbia University',
-    style: "shadow-blue-800"
+    style: "shadow-blue-800",
+    FontFace: 'Raleway'
        
 },
 {

@@ -8,7 +8,7 @@ const About = () => {
   return (
     
    <PageSection name='about' id='about' title='About' subtitle={`MAST Technologies is the most renowned remote solution provider in Pakistan. It has its offices located in London, Pakistan and New York`} >
-<div className='flex flex-col lg:flex-row items-center justify-center gap-8'>
+<div className='flex flex-col lg:flex-row items-center justify-center gap-8 font-sans'>
   <div className='flex flex-col gap-4 w-full lg:w-1/2 p-8 bg-gray-900 rounded-lg'>
     <p className='border-l-4 pl-4 odd:border-thOrange even:border-red-800'>
     MAST Technologies hires the finest talent in the world and provides them the opportunity to connect with the most esteemed and prestigious organisations
