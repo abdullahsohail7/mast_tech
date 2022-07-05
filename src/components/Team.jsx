@@ -21,7 +21,7 @@ const Team = () => {
 {
     id:2,
     src: LI4,
-    title :'Syed Abdullah Sohail',
+    title :'Syed Abdullah Abbas Sohail',
     subtitle : 'Full Stack Developer',
     children : 'UET, Lahore',
     style: "shadow-blue-800"
