@@ -14,7 +14,7 @@ const Team = () => {
     src: LI5,
     title :'Daniyal Azhar',
     subtitle : 'Senior Android Developer',
-    children : 'Columbia University',
+    children : 'Columbia University, Fullerton',
     style: "shadow-blue-800",
    
        
