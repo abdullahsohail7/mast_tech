@@ -42,10 +42,10 @@ style: "shadow-blue-800"}
               key={id}
               className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
             >
-              <img src={src} alt="" className="w-20 h-30 mx-auto" />
+              <img src={src} alt="" className="w-20 h-25 mx-auto" />
               <p className="mt-4 text-sm">{title}</p>
               <p className='text-sm'>{subtitle}</p>
-              <p className='flex flex-row items-center justify-center text-xs text-thBlue '>{children}</p>
+              <p className='flex flex-row items-center justify-center text-sm text-thBlue '>{children}</p>
             </div>
           ))}
 
