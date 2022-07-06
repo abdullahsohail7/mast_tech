@@ -29,7 +29,7 @@ const Navbar = ({isMenuShown, setIsMenuShown}) => {
     ]
   return (
       <>
-    <div className='absolute w-full h-30 bg-black text-white z-20'>
+    <div className='absolute w-full h-24 bg-black text-white z-20'>
         <div className='flex justify-between items-center max-w-screen-xl mx-auto px-4 h-full'>
             <div>
             
