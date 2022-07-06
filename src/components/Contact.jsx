@@ -19,9 +19,9 @@ const Contact = () => {
     {/* <button className='flex items-center justify-center rounded-full shadow-md shadow-thPurple hover:scale-110 duration-200 p-3 cursor-pointer'>
         <FaLinkedin size={25} onClick={}/>
     </button> */}
-    <div className='flex items-center justify-center rounded-full shadow-md shadow-thPurple hover:scale-110 duration-200 p-3 cursor-pointer'>
-        <FaPhone size={25}/>
-    </div>
+    
+    <a href="tel:+923005603366" className='flex items-center justify-center rounded-full shadow-md shadow-thPurple hover:scale-110 duration-200 p-3 cursor-pointer'><FaPhone size={25} /></a>
+
 </div>
 
     </div>
