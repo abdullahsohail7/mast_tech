@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <div className='border-t border-white bg-gray-900'>
-        <div className='my-1 max-w-screen-full mx-auto bg-gray-900'>
+        <div className='my-1 max-w-screen-2xl mx-auto bg-gray-900'>
             <div className='grid grid-cols-2 lg:grid-cols-3 text-center gap-12 bg-gray-900'>
                 <div>
                 <h1 className='text-lg font-sans font-semi-bold text-blue-900'>
@@ -24,7 +24,7 @@ const Footer = () => {
                 <h1 className='text-lg font-sans font-semi-bold text-blue-900 text-center'>
                     UK Representative
                 </h1>
-                <ul className='mt-1 font-sans font-xs text-gray-600'>
+                <ul className='mt-1 font-sans font-xs text-gray-600 text-center'>
                     
                     <li className='text-center'>uk@masttechnologies.com</li>
                     <li>+447541055014</li>
@@ -39,7 +39,7 @@ const Footer = () => {
                 <h1 className='text-lg font-sans font-semi-bold text-blue-900 text-center'>
                     Company Contact
                 </h1>
-                <ul className='mt-1 font-sans font-xs text-gray-600'>
+                <ul className='mt-1 font-sans font-xs text-gray-600 text-center'>
                     
                     <li className='text-center'>hello@masttechnologies.com</li>
                     <li>+923005603366</li>
