@@ -58,9 +58,9 @@ const Navbar = ({isMenuShown, setIsMenuShown}) => {
                 )}
                     
                 </ul>
-                <Link to='Footer' spy={true} smooth={true} duration-500>
+                
                 <GradientBtn className='ml-4 capitalize' title='Get Mast'/>
-                </Link>
+                
             </div>
             <div onClick={()=> setIsMenuShown(!isMenuShown)} className='block lg:hidden cursor-pointer'>
                 {isMenuShown ? <FaTimes size={30}/> : <FaBars size={30} /> }
