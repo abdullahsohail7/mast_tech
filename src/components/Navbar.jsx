@@ -29,7 +29,7 @@ const Navbar = ({isMenuShown, setIsMenuShown}) => {
     ]
   return (
       <>
-    <div className='absolute w-full h-30 bg-black text-white z-20'>
+    <div className='absolute w-full h-25 bg-black text-white z-20'>
         <div className='flex justify-between items-center max-w-screen-xl mx-auto px-4 h-full'>
             <div>
             
@@ -62,7 +62,7 @@ const Navbar = ({isMenuShown, setIsMenuShown}) => {
                 <GradientBtn className='ml-4 capitalize' title='Get Mast'/>
                 </Link>
             </div>
-            <div onClick={()=> setIsMenuShown(!isMenuShown)} className=' lg:hidden cursor-pointer'>
+            <div onClick={()=> setIsMenuShown(!isMenuShown)} className='block lg:hidden cursor-pointer'>
                 {isMenuShown ? <FaTimes size={30}/> : <FaBars size={30} /> }
 
             </div>
@@ -73,7 +73,7 @@ const Navbar = ({isMenuShown, setIsMenuShown}) => {
 
 
 <div className={`w-full bg-black text-white absolute z-10 left-0 h-fit py-6 lg:hidden flex justify-center text-center text-2xl duration-500 cursor-pointer ${
-    isMenuShown ? "top-8 rounded-b-2xl opacity-95" : "top-[-100%]"}`}>
+    isMenuShown ? "top-9 rounded-b-2xl opacity-95" : "top-[-100%]"}`}>
     <ul>
         {
             links.map(({id, link})=>(
