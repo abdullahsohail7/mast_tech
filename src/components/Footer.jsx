@@ -1,8 +1,9 @@
 import React from 'react'
 
 const Footer = () => {
+    
   return (
-    <div className='border-t border-white bg-gray-900'>
+    <div name ="Footer" id="Footer" className='border-t border-white bg-gray-900'>
         <div className='my-1 max-w-screen-2xl mx-auto bg-gray-900'>
             <div className='grid grid-cols-1 lg:grid-cols-3 text-center gap-12 bg-gray-900'>
                 <div>

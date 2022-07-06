@@ -17,9 +17,9 @@ const HeroSection = (isMenuShown) => {
   return (
     <div className='flex items-end justify-center w-full h-screen text-center'>
       <video ref={videoRef} src ={CB} autoPlay loop muted 
-      className='object-cover h-full w-full absolute -z-10'
+      className='object-cover h-full w-max absolute -z-10'
       />
-      <div className={`p-8 flex flex-col items-center justify-center duration-500 w-full h-max ${
+      <div className={`p-6 flex flex-col items-center justify-center duration-500 w-full h-max ${
         isVideoPlaying ? "" : 'bg-black/80'
       }
       ${isMenuShown ? 'opacity-35' : 'opacity-100'}
@@ -31,7 +31,7 @@ const HeroSection = (isMenuShown) => {
         </h1>
         </div>
         <div className='py-2 flex flex-row items-center justify-center '>
-          <GradientBtn className='py-2 capitalize ' title= 'Portfolios'/>
+          {/* <GradientBtn className='py-2 capitalize ' title= 'Portfolios'/> */}
 
           {/* {
             isVideoPlaying ?  <FaPauseCircle size={40} onClick={handleVideoPause} className ='px-2 cursor-pointer hover:scale-110 duration-200'/> :
