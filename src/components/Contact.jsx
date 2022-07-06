@@ -14,9 +14,11 @@ const Contact = () => {
 
 <img src={ContactImage} alt="contact" className='rounded-full object-cover w-72 h-72 shadow-lg shadow-thPurple' />
 <div className='grid grid-cols-2 mx-auto w-4/5 gap-10 py-12'>
-    <div className='flex items-center justify-center rounded-full shadow-md shadow-thPurple hover:scale-110 duration-200 p-3 cursor-pointer'>
-        <FaLinkedin size={25}/>
-    </div>
+   
+<a href="https://www.linkedin.com/company/mast-technologies7/" className='flex items-center justify-center rounded-full shadow-md shadow-thPurple hover:scale-110 duration-200 p-3 cursor-pointer'><FaLinkedin size={25} /></a>
+    {/* <button className='flex items-center justify-center rounded-full shadow-md shadow-thPurple hover:scale-110 duration-200 p-3 cursor-pointer'>
+        <FaLinkedin size={25} onClick={}/>
+    </button> */}
     <div className='flex items-center justify-center rounded-full shadow-md shadow-thPurple hover:scale-110 duration-200 p-3 cursor-pointer'>
         <FaPhone size={25}/>
     </div>

@@ -52,7 +52,7 @@ const Footer = () => {
                 </div>
                 
             </div>
-            <p className='my-1 mt-2 text-center text-sm  text-blue-300'>© Copyright 2022 MAST TECH LTD.</p>
+            <p className='my-1 mt-2 text-center text-sm  text-blue-400 text-shine'>© Copyright 2022 MAST TECH LTD.</p>
         </div>
     </div>
   )
