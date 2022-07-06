@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react';
 import CB from "../assets/CB.mp4";
 // import { FaPauseCircle, FaPlayCircle } from 'react-icons/fa';
-import GradientBtn from './GradientBtn';
+
 
 const HeroSection = (isMenuShown) => {
  const [isVideoPlaying] = useState(true);
