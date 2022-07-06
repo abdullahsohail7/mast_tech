@@ -89,7 +89,9 @@ const Navbar = ({isMenuShown, setIsMenuShown}) => {
                 </Link></li>
             ))
         }
+        <Link to='Footer' spy={true} smooth={true} duration-500>
         <GradientBtn className="mt-10 capitalize" title={"Get MAST"}/>
+        </Link>
     </ul>
     </div>
 
