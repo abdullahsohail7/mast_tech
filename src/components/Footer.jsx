@@ -27,7 +27,7 @@ const Footer = () => {
                 <ul className='mt-1 font-sans font-xs text-gray-600 mx-auto'>
                     
                     <li className='mx-auto text-align'>uk@masttechnologies.com</li>
-                    <li>+447541055014</li>
+                    <li className='cursor-pointer underline'>+447541055014</li>
                   
             
                 </ul>
