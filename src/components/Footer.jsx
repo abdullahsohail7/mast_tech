@@ -21,10 +21,10 @@ const Footer = () => {
                 
                 </div>
                 <div>
-                <h1 className='text-lg font-sans font-semi-bold text-blue-900 text-center'>
+                <h1 className='text-lg font-sans font-semi-bold text-blue-900 mx-auto'>
                     UK Representative
                 </h1>
-                <ul className='mt-1 font-sans font-xs text-gray-600 text-center'>
+                <ul className='mt-1 font-sans font-xs text-gray-600 mx-auto'>
                     
                     <li className='text-center'>uk@masttechnologies.com</li>
                     <li>+447541055014</li>
