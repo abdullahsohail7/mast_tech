@@ -72,7 +72,7 @@ const Navbar = ({isMenuShown, setIsMenuShown}) => {
 
 
 
-<div className={`w-full bg-black text-white absolute z-10 left-0 h-fit py-6 lg:hidden flex justify-center text-center text-2xl duration-500 cursor-pointer ${
+<div className={`w-full bg-black text-white absolute z-10 left-0 h-30 py-6 lg:hidden flex justify-center text-center text-2xl duration-500 cursor-pointer ${
     isMenuShown ? "top-9 rounded-b-2xl opacity-95" : "top-[-100%] duration-300"}`}>
     <ul>
         {
