@@ -16,7 +16,7 @@ const HeroSection = (isMenuShown) => {
 //  };
   return (
     <div className='flex items-end justify-center w-full h-screen text-center'>
-      <video ref={videoRef} src={CB} autoPlay loop muted 
+      <video ref={videoRef} src ={CB} autoPlay loop muted 
       className='object-cover h-full w-full absolute -z-10'
       />
       <div className={`p-8 flex flex-col items-center justify-center duration-500 w-full h-max ${

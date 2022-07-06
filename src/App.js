@@ -1,6 +1,7 @@
 import { useState } from "react";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
 import Team from "./components/Team";
@@ -18,6 +19,7 @@ function App() {
       <Team/>
       <WhyMast/>
       <Contact/>
+      <Footer/>
     </div>
   );
 }
