@@ -42,7 +42,8 @@ const Footer = () => {
                 <ul className='mt-1 font-sans font-xs text-gray-600 text-center'>
                     
                     <li className='text-center'>hello@masttechnologies.com</li>
-                    <li>+923005603366</li>
+                    <li className='cursor-pointer underline'>
+                        +923005603366</li>
                   
             
                 </ul>
@@ -52,8 +53,9 @@ const Footer = () => {
                 </div>
                 
             </div>
-            <p className='my-1 mt-2 text-center text-sm  text-blue-400 text-shine'>© Copyright 2022 MAST TECH LTD.</p>
+            <p className='my-1 mt-6 text-center text-sm  text-blue-400 text-shine'>© Copyright 2022 MAST TECH LTD.</p>
         </div>
+        
     </div>
   )
 }
