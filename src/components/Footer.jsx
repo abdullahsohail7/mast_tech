@@ -28,7 +28,7 @@ const Footer = () => {
                 <ul className='mt-1 font-sans font-xs text-gray-600 mx-auto'>
                     
                     <li className='mx-auto text-align'>
-                        <a href="mailto:uk@masttechnologies.com">uk@masttechnologies.com</a>
+                        <a href="mailto:uk@masttechsolutions.com">uk@masttechsolutions.com</a>
                     </li>
                     <a href="tel:+447541055014 " className='underline'>+447541055014</a>
                     {/* <li className='cursor-pointer underline'>+447541055014</li> */}
@@ -46,7 +46,7 @@ const Footer = () => {
                 <ul className='mt-1 font-sans font-xs text-gray-600 text-center'>
                     
                 <li className='mx-auto text-align'>
-                        <a href="mailto:hello@masttechnologies.com">hello@masttechnologies.com</a>
+                        <a href="mailto:hello@masttechsolutions.com">hello@masttechsolutions.com</a>
                     </li>
                    <li> <a href="tel:+923005603366 " className='underline'>+923005603366</a>
                    </li>

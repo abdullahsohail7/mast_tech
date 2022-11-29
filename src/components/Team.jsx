@@ -6,6 +6,7 @@ import PageSection from './PageSection'
 import S1 from '../assets/S1.png'
 import LI5 from '../assets/LI5.png'
 import S2 from '../assets/S2.jpg'
+import S3 from '../assets/Shafqat.jpeg'
 
 const Team = () => {
    const teams = [
@@ -34,6 +35,14 @@ const Team = () => {
     children : 'UET, Lahore',
     style: "shadow-blue-800"
 },
+{
+  id:4,
+    src: S3,
+    title :'Syed Shafqat Haider',
+    subtitle : 'Founder',
+    children : 'New York University',
+    style: "shadow-blue-800"
+}
 
 ]
   return (

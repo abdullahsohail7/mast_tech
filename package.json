@@ -1,5 +1,6 @@
 {
   "name": "mast-tech",
+  "homepage": "http://masttechsolutions.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
