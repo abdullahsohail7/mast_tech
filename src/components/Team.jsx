@@ -55,7 +55,7 @@ const Team = () => {
             >
               <img src={src} alt="" className="w-20 h-25 mx-auto" />
               <p className="mt-4 text-sm">{title}</p>
-              <p className='text-sm'>{subtitle}</p>
+              <p className='text-sm text-blue-800'>{subtitle}</p>
               <p className='flex flex-row items-center justify-center text-sm text-thBlue '>{children}</p>
             </div>
           ))}
