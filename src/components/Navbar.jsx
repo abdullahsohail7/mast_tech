@@ -1,7 +1,8 @@
 import React from 'react'
 import GradientBtn from './GradientBtn'
 import {FaBars, FaTimes} from "react-icons/fa"
-import TG from "../assets/TG.png"
+//import TG from "../assets/TG.png"
+import XYZ from "../assets/XYZ.jpg"
 import { Link } from 'react-scroll'
 
 const Navbar = ({isMenuShown, setIsMenuShown}) => {
@@ -20,7 +21,7 @@ const Navbar = ({isMenuShown, setIsMenuShown}) => {
         },
         {
             id: 4,
-            link: 'Why Mast'
+            link: 'Why XYZ'
         },
         {
             id: 5,
@@ -34,8 +35,8 @@ const Navbar = ({isMenuShown, setIsMenuShown}) => {
             <div>
             
                 <h1 className='text-thBlue tracking-widest text-3xl'>
-                    {/* MAST TECH */}
-                    <img src={TG} alt="s" className='h-20 w-25 items-start justify-start bg-gradient-to-b from-blue-900 to-gray-900'  />
+                    {/* XYZ TECH */}
+                    <img src={XYZ} alt="s" className='h-20 w-25 items-start justify-start bg-gradient-to-b from-blue-900 to-gray-900'  />
                    
                 </h1>
             </div>
@@ -59,7 +60,7 @@ const Navbar = ({isMenuShown, setIsMenuShown}) => {
                     
                 </ul>
                 <Link to='Footer' spy='true' smooth='true' duration-500>
-                <GradientBtn className='ml-4 capitalize' title='Get Mast'/>
+                <GradientBtn className='ml-4 capitalize' title='Get XYZ'/>
                 </Link>
             </div>
             <div onClick={()=> setIsMenuShown(!isMenuShown)} className='block lg:hidden cursor-pointer'>
@@ -90,7 +91,7 @@ const Navbar = ({isMenuShown, setIsMenuShown}) => {
             ))
         }
         <Link onClick={() => setIsMenuShown(false)} to='Footer' spy={true} smooth={true} duration-500>
-        <GradientBtn className="mt-10 capitalize" title={"Get MAST"}/>
+        <GradientBtn className="mt-10 capitalize" title={"Get XYZ"}/>
         </Link>
     </ul>
     </div>

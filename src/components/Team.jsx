@@ -1,12 +1,9 @@
 import React from 'react'
 import PageSection from './PageSection'
-// import LI1 from '../assets/LI1.jpg'
-// import LI2 from '../assets/LI2.jpg'
-// import LI3 from '../assets/LI3.jpeg'
+import LI2 from '../assets/LI2.jpg'
 import S1 from '../assets/S1.png'
 import LI5 from '../assets/LI5.png'
-import S2 from '../assets/S2.jpg'
-import S3 from '../assets/Shafqat.jpeg'
+//import S3 from '../assets/Shafqat.jpeg'
 
 const Team = () => {
    const teams = [
@@ -16,47 +13,47 @@ const Team = () => {
     title :'Daniyal Azhar',
     subtitle : 'Senior Android Developer',
     children : 'Columbia University, Fullerton',
-    style: "shadow-blue-800",
-   
-       
+    style: "shadow-blue-800 ",
 },
 {
   id:2,
-  src: S2,
+  src: LI2,
   title :'Irine Schwartz',
   subtitle : 'IOS Developer',
   children : 'Berkshire University Of Engineering',
-  style: "shadow-blue-800"},
+  style: "shadow-red-800"},
 {
     id:3,
     src: S1,
     title :'Syed Abdullah Abbas Sohail',
     subtitle : 'Senior Product Manager',
     children : 'UET, Lahore',
-    style: "shadow-blue-800"
+    style: "shadow-yellow-800"
 },
-{
-  id:4,
-    src: S3,
-    title :'Syed Shafqat Haider',
-    subtitle : 'Founder',
-    children : 'New York University',
-    style: "shadow-blue-800"
-}
-
 ]
+
   return (
-   <PageSection name= 'team' title="Team" subtitle="The MAST Tech. team is a tight-knit, talented group with a shared vision of delivering consistently great results for our clients, as well as ensuring the agency is a fun, inclusive, challenging place to work and develop a rewarding career.">
-<div className='grid grid-cols-2 lg:grid-col-3 h-30 gap-8 text-white text-center items-center justify-center' >
-{teams.map(({ id, src, title, subtitle ,children,  style}) => (
+   <PageSection name='team' title="Team" subtitle="The XYZ Tech. team is a tight-knit, talented group with a shared vision of delivering consistently great results for our clients, as well as ensuring the agency is a fun, inclusive, challenging place to work and develop a rewarding career.">
+   
+   <div className='grid grid-cols-2 lg:grid-col-3 h-30 gap-8 text-white text-center items-center justify-center'>
+   
+   {teams.map(({ id, src, title, subtitle ,children,  style}) => (
+   
             <div
               key={id}
-              className={`shadow-md h-full hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
+              className={`shadow-md h-full hover:scale-105 duration-500 py-2 rounded-lg ${style} flex flex-col justify-between`} // <== HIGHLIGHTED
             >
-              <img src={src} alt="" className="w-20 h-25 mx-auto" />
-              <p className="mt-4 text-sm">{title}</p>
-              <p className='text-sm text-blue-800'>{subtitle}</p>
-              <p className='flex flex-row items-center justify-center text-sm text-thBlue '>{children}</p>
+              {/* <== HIGHLIGHTED */}
+              
+              <div className="flex-grow flex flex-col items-center justify-center">
+                <img src={src} alt="" className="w-20 h-25 mx-auto" /></div>
+                
+                <p className="mt-6 text-sm">{title}</p>
+               
+                <p className='text-sm text-blue-800'>{subtitle}</p>
+              
+              
+              <p className='text-sm text-thBlue pb-2'>{children}</p>  {/* <== HIGHLIGHTED */}
             </div>
           ))}
 

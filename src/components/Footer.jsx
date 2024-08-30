@@ -11,7 +11,7 @@ const Footer = () => {
                     Office Address
                 </h1>
                 <ul className='mt-1 font-sans font-xs text-gray-600'>
-                    <li>MAST Technologies</li>
+                    <li>XYZ Technologies</li>
                     <li>RIC Building, NUST</li>
                     <li>Islamabad, Pakistan</li>
                     <li>44000</li>
@@ -28,7 +28,7 @@ const Footer = () => {
                 <ul className='mt-1 font-sans font-xs text-gray-600 mx-auto'>
                     
                     <li className='mx-auto text-align'>
-                        <a href="mailto:uk@masttechsolutions.com">uk@masttechsolutions.com</a>
+                        <a href="mailto:uk@xyztechsolutions.com">uk@xyztechsolutions.com</a>
                     </li>
                     <a href="tel:+447541055014 " className='underline'>+447541055014</a>
                     {/* <li className='cursor-pointer underline'>+447541055014</li> */}
@@ -46,7 +46,7 @@ const Footer = () => {
                 <ul className='mt-1 font-sans font-xs text-gray-600 text-center'>
                     
                 <li className='mx-auto text-align'>
-                        <a href="mailto:hello@masttechsolutions.com">hello@masttechsolutions.com</a>
+                        <a href="mailto:hello@mxyztechsolutions.com">hello@xyztechsolutions.com</a>
                     </li>
                    <li> <a href="tel:+923005603366 " className='underline'>+923005603366</a>
                    </li>
@@ -61,7 +61,7 @@ const Footer = () => {
                 </div>
                 
             </div>
-            <p className='my-1 mt-6 text-center text-sm  text-blue-400 text-shine'>© Copyright 2022 MAST TECH LTD.</p>
+            <p className='my-1 mt-6 text-center text-sm  text-blue-400 text-shine'>© Copyright 2022 XYZ TECH LTD.</p>
         </div>
         
     </div>

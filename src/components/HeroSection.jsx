@@ -26,7 +26,7 @@ const HeroSection = (isMenuShown) => {
       `}>
         <div className='bg-gradient-to-r from-black to-gray-700 rounded-2xl opacity-80 shadow-lg shadow-white'>
         <h1 className='text-3xl lg:text-5xl h-max text-blue-500'>
-          MAST TECH
+          XYZ TECH
           <h1 className='text-3xl lg:text-5xl capitalize mb-8'>Remote <span className='text-white font-bold'> Solutions</span></h1>
         </h1>
         </div>

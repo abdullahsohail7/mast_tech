@@ -7,7 +7,7 @@ import usd from '../assets/usd.png'
 import usery from '../assets/usery.png'
 import buidling from '../assets/buidling.png'
 
-const WhyMast = () => {
+const WhyXYZ = () => {
     const WhyM = [
         {
             id: 1,
@@ -55,7 +55,7 @@ const WhyMast = () => {
         ];
     
   return (
-   <PageSection name='Why Mast' title='Why Mast' subtitle='Why you should choose MAST Technologies'>
+   <PageSection name='Why XYZ' title='Why XYZ' subtitle='Why you should choose XYZ Technologies'>
          
 
 
@@ -92,4 +92,4 @@ const WhyMast = () => {
   )
 }
 
-export default WhyMast
+export default WhyXYZ
