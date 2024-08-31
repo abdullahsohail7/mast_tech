@@ -1,1 +1,4 @@
+[submodule "mast_tech"]
+    path = mast_tech
+    url = https://github.com/yourusername/mast_tech.git
 
