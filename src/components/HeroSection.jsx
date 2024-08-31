@@ -25,10 +25,10 @@ const HeroSection = (isMenuShown) => {
       ${isMenuShown ? 'opacity-35' : 'opacity-100'}
       `}>
         <div className='bg-gradient-to-r from-black to-gray-700 rounded-2xl opacity-80 shadow-lg shadow-white'>
-        <h1 className='text-3xl lg:text-5xl h-max text-blue-500'>
-          XYZ TECH
-          <h1 className='text-3xl lg:text-5xl capitalize mb-8'>Remote <span className='text-white font-bold'> Solutions</span></h1>
-        </h1>
+        <h1 className='text-3xl lg:text-5xl h-max text-blue-500 mt-8 font-bold'>
+          XYZ TECH</h1>
+          <h1 className='text-3xl lg:text-5xl capitalize mx-2 mt-2 mb-8'>Remote <span className='text-white'> Solutions</span></h1>
+        
         </div>
         <div className='py-2 flex flex-row items-center justify-center '>
           {/* <GradientBtn className='py-2 capitalize ' title= 'Portfolios'/> */}
