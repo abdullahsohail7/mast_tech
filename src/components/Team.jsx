@@ -33,7 +33,7 @@ const Team = () => {
 ]
 
   return (
-   <PageSection name='team' title="Team" subtitle="The XYZ Tech. team is a tight-knit, talented group with a shared vision of delivering consistently great results for our clients, as well as ensuring the agency is a fun, inclusive, challenging place to work and develop a rewarding career.">
+   <PageSection name='team' title={<h2 className='text-3xl border-b-4 border-gray-500 inline-block pb-2'>Team</h2>} subtitle="The XYZ Tech. team is a tight-knit, talented group with a shared vision of delivering consistently great results for our clients, as well as ensuring the agency is a fun, inclusive, challenging place to work and develop a rewarding career.">
    
    <div className='grid grid-cols-2 lg:grid-col-3 h-30 gap-8 text-white text-center items-center justify-center'>
    
